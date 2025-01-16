@@ -18,4 +18,4 @@
 ## Link to project
 ~
 ## License
--
+-GNU General Public License (GPL) v3.0
