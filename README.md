@@ -1,5 +1,5 @@
 # photographywork
--This is a personal photography project showcasing my work as Tedd James, organized into categories such as landscapes, portraits, and urban photography. 
+-This personal photography project showcases my work as Tedd James, organized into categories such as landscapes, portraits, and urban photography. 
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
@@ -16,6 +16,6 @@
 ## Technologies used
 -HTML5 & CSS
 ## Link to project
-~
+~https://github.com/teddjames/photographywork.git
 ## License
 -GNU General Public License (GPL) v3.0
