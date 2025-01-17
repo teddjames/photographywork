@@ -132,17 +132,67 @@ p {
     button:hover {
       background-color: #0056b3;
     }
+    header{
+          background-color:none;
+          color:#F76C6C;
+          padding: 20px; /*Add padding for content inside the header */
+          text-align: center;
+          width: 100%; /*Ensure full width */
+          box-sizing: border-box; /* Inculde padding in the width */
+        }
+  nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  nav ul li{margin: 0% 15px;
+  font-family: cursive;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+}
+/* Remove the bluefont and underline */
+a {
+            color: inherit; /* Inherits the color of the parent element */
+            text-decoration: none; /* Removes the underline */
+        }
+
+        /* Optional: Add hover styling for better user experience */
+        a:hover {
+            color: darkorange; /* Change color on hover */
+            text-decoration: underline; /* Add underline on hover */
+        }
+        html{scroll-behavior: smooth;}
     </style>
 </head>
+<header>
+  <h1>Welcome to TJ'S photography web</h1>
+  <nav>
+    <ul>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#Biography">Biography</a></li>
+      <li><a href="#Listofmypictures">List of my pictures</a></li>
+      <li><a href="#ContactMe">Contact Me</a></li>
+      <li><a href="#SubmissionForm">Submission Form</a></li>
+    </ul>
+  </nav>
+</header>
 <body>
-    <h1>Welcome to TJ'S photography web</h1>
+    <section id="Portfolio">
     <h2>~Portfolio</h2>
-    <p>Welcome to my photography world! I'm a teenage photographer with a passion for capturing life in many different aspects.My best works are evident through urban,street,car & nature photography.Feel free to join me as I explore the world and capture memorable momments with my camera.</p>
+    <p>Welcome to my photography world! I'm a <strong>teenage photograpger</strong> with a passion for capturing life in many different aspects.My best works are evident through urban,street,car & nature photography.Feel free to join me as I explore the world and capture memorable momments with my camera.</p>
+    </section>
+    <section id="Biography">
     <h2>~Biography</h2>
-    <p>Hi, I’m <strong>Tedd James</strong>, a teenage photographer dedicated to capturing outsanding images with my lenses, one frame at a time. Based in Nairobi, I specialize in event,urban,car,model,street & nature photography, blending creativity with immense technical ability.</p>
+    <p>Hi, I’m <strong>Tedd James</strong>, a teenage photographer dedicated to capturing outsanding images with my lenses, one frame at a time. Based in <strong>Nairobi</strong>, I specialize in <strong>event,urban,car,model,street & nature photography</strong>, blending creativity with immense technical ability.</p>
     <img src="photo1.jpg" alt="A picture of Tedd James">
+    </section>
+    <section id="Listofmypictures">
     <h2>~List of my pictures</h2>
-    <p>Here are some of my favourite pics that I've taken from my nikon camera:</p>
+    <p>Here are some of my <strong>favourite</strong> pics that I've taken from my nikon camera:</p>
     <ul class="image-list">
         <li>
           <a href="" target="_blank">
@@ -160,10 +210,14 @@ p {
           </a>
         </li>
       </ul>
+    </section>
+    <section id="ContactMe">
     <h3>Contact Me</h3> 
-    <p>If interested, reach out to me through my email below.</p>
+    <p>If interested, reach out to me through my <strong>email</strong> below.</p>
     <a href="mailto:prof.teddjames@gmail.com">prof.teddjames@gmail.com</a>
-    <h2>Submission Form</h2>
+    </section>
+    <section id="SubmissionForm">
+    <h2 style="text-align: center;">Submission Form</h2>
     <form action="/submit" method="post">
         <!-- Name Field -->
         <label for="name">Name:</label>
@@ -188,5 +242,6 @@ p {
         <!-- Submit Button -->
         <button type="submit">Submit</button>
       </form>
+    </section>
 </body>
 </html>
