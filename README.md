@@ -2,7 +2,7 @@
 -This personal photography project showcases my work as Tedd James, organized into categories such as landscapes, portraits, and urban photography. 
 ## Table of Contents
 - [About](#about)
--[Author](##author)
+ -[Author](##author)
 - [Features](#features)
 - [Technologies used](#Technologiesused)
 - [Link to project](#Linktoproject)
