@@ -1,11 +1,14 @@
 # photographywork
 -This personal photography project showcases my work as Tedd James, organized into categories such as landscapes, portraits, and urban photography. 
 ## Table of Contents
+-[Author](##author)
 - [About](#about)
 - [Features](#features)
 - [Technologies used](#Technologiesused)
 - [Link to project](#Linktoproject)
 - [License](#License)
+##Author
+-Tedd James 
 ## About
 -This repository is a creative gallery and includes the code used to design and build the website.
 ## Features
