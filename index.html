@@ -1,247 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHOTOGRAPHY</title>
-    <style>
-        body {
-  font-family: 'Georgia', serif;
-  background: #fdf6e3; /* Cream background */
-  color: #333;
-  margin: 0;
-  padding: 20px;
-  background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
-  background-size: 400px 400px;
-}
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 3rem;
-  color: #F76C6C;
-  text-align: center;
-  text-shadow: 2px 2px #F7B32B;
-  letter-spacing: 1.5px;
-}
-form {
-        background: #fff;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        max-width: 400px;
-        margin: auto;
-    }
-    label {
-        font-weight: bold;
-        display: block;
-        margin-bottom: 5px;
-    }
-    input, select, textarea, button {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-    button {
-        background-color: #007BFF;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-    button:hover {
-        background-color: #0056b3;
-    }
-    h2 {
-  font-family: 'Pacifico', cursive;
-  font-size: 2.2rem;
-  color: #F76C6C;
-  text-shadow: 2px 2px #F7B32B;
-  text-align: left;
-  margin: 20px 0;
-}
-h3{
-  font-family: 'Pacifico', cursive;
-  font-size: 2rem;
-  color: #F76C6C;
-}
-p {
-  font-family: 'Courier New', monospace;
-  font-size: 1.1rem;
-  color: #6A0572;
-  line-height: 1.5;
-  text-shadow: 1px 1px 2px #F7B32B;
-  margin: 15px 0;
-}
-.image-list {
-      list-style: none; /* Remove bullets */
-      padding: 0;
-      display: flex; /* Display images in a row */
-      gap: 15px; /* Space between images */
-    }
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to TJ'S photography web</h1>
+      <nav>
+        <ul>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Biography">Biography</a></li>
+          <li><a href="#Someofmypictures">Some of my pictures</a></li>
+          <li><a href="#ContactMe">Contact Me</a></li>
+          <li><a href="#SubmissionForm">Submission Form</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    .image-list li {
-      display: inline-block;
-    }
-
-    img {
-      width: 150px; /* Set the image size */
-      height: auto;
-      border-radius: 10px; /* Optional: Rounds corners */
-      transition: transform 0.3s ease; /* Optional: Smooth zoom effect */
-    }
-
-    img:hover {
-      transform: scale(1.1); /* Optional: Zoom in on hover */
-    }
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    form {
-      max-width: 400px;
-      margin: auto;
-      padding: 30px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      background-color: #f9f9f9;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-
-    input, textarea, button {
-      width: 100%;
-      margin-bottom: 15px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-    header{
-          background-color:none;
-          color:#F76C6C;
-          padding: 20px; /*Add padding for content inside the header */
-          text-align: center;
-          width: 100%; /*Ensure full width */
-          box-sizing: border-box; /* Inculde padding in the width */
-        }
-  nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-  }
-  nav ul li{margin: 0% 15px;
-  font-family: cursive;
-font-style: italic;
-font-weight: bold;
-text-decoration: none;
-}
-/* Remove the bluefont and underline */
-a {
-            color: inherit; /* Inherits the color of the parent element */
-            text-decoration: none; /* Removes the underline */
-        }
-
-        /* Optional: Add hover styling for better user experience */
-        a:hover {
-            color: darkorange; /* Change color on hover */
-            text-decoration: underline; /* Add underline on hover */
-        }
-        html{scroll-behavior: smooth;}
-    </style>
-</head>
-<header>
-  <h1>Welcome to TJ'S photography web</h1>
-  <nav>
-    <ul>
-      <li><a href="#Portfolio">Portfolio</a></li>
-      <li><a href="#Biography">Biography</a></li>
-      <li><a href="#Listofmypictures">List of my pictures</a></li>
-      <li><a href="#ContactMe">Contact Me</a></li>
-      <li><a href="#SubmissionForm">Submission Form</a></li>
-    </ul>
-  </nav>
-</header>
-<body>
     <section id="Portfolio">
-    <h2>~Portfolio</h2>
-    <p>Welcome to my photography world! I'm a <strong>teenage photograpger</strong> with a passion for capturing life in many different aspects.My best works are evident through urban,street,car & nature photography.Feel free to join me as I explore the world and capture memorable momments with my camera.</p>
+      <h2>~Portfolio</h2>
+      <p>
+        Welcome to my photography world! I'm a
+        <strong>teenage photograpger</strong> with a passion for capturing life
+        in many different aspects. My best works are evident through urban,
+        street, car & nature photography. Feel free to join me as I explore the
+        world and capture memorable moments with my camera.
+      </p>
     </section>
+
     <section id="Biography">
-    <h2>~Biography</h2>
-    <p>Hi, I’m <strong>Tedd James</strong>, a teenage photographer dedicated to capturing outsanding images with my lenses, one frame at a time. Based in <strong>Nairobi</strong>, I specialize in <strong>event,urban,car,model,street & nature photography</strong>, blending creativity with immense technical ability.</p>
-    <img src="photo1.jpg" alt="A picture of Tedd James">
+      <h2>~Biography</h2>
+      <p>
+        Hi, I’m <strong>Tedd James</strong>, a teenage photographer dedicated to
+        capturing outstanding images with my lenses, one frame at a time. Based
+        in <strong>Nairobi</strong>, I specialize in
+        <strong>event, urban, car, model, street & nature photography</strong>,
+        blending creativity with immense technical ability.
+      </p>
+      <img src="./images/photo1.jpg" alt="A picture of Tedd James" />
     </section>
-    <section id="Listofmypictures">
-    <h2>~List of my pictures</h2>
-    <p>Here are some of my <strong>favourite</strong> pics that I've taken from my nikon camera:</p>
-    <ul class="image-list">
+
+    <section id="Someofmypictures">
+      <h2>~Some of my pictures</h2>
+      <p>
+        Here are some of my <strong>favourite</strong> pics that I've taken from
+        my nikon camera:
+      </p>
+      <ul class="image-list">
         <li>
           <a href="" target="_blank">
-            <img src="DSC_0071.jpg" alt="1st image">
+            <img src="./images/DSC_0071.jpg" alt="1st image" />
           </a>
         </li>
         <li>
           <a href="" target="_blank">
-            <img src="p2.jpg" alt="2nd image">
+            <img src="./images/DSC_1105 (1).jpg" alt="2nd image" />
           </a>
         </li>
         <li>
           <a href="" target="_blank">
-            <img src="DSC_1105 (1).jpg" alt="3rd image">
+            <img src="./images/p2.jpg" alt="3rd image" />
           </a>
         </li>
       </ul>
     </section>
+
     <section id="ContactMe">
-    <h3>Contact Me</h3> 
-    <p>If interested, reach out to me through my <strong>email</strong> below.</p>
-    <a href="mailto:prof.teddjames@gmail.com">prof.teddjames@gmail.com</a>
+      <h3>Contact Me</h3>
+      <p>
+        If interested, reach out to me through my <strong>email</strong> below.
+      </p>
+      <a href="mailto:iamteddjames@gmail.com">iamteddjames@gmail.com</a>
     </section>
-    <section id="SubmissionForm">
-    <h2 style="text-align: center;">Submission Form</h2>
-    <form action="/submit" method="post">
-        <!-- Name Field -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-    
-        <!-- Email Field -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-    
-        <!-- Subject Field -->
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
-    
-        <!-- Message Field -->
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Enter your message here..." required></textarea>
-    
-        <!-- File Upload Field -->
-        <label for="file">Upload a File:</label>
-        <input type="file" id="file" name="file">
-    
-        <!-- Submit Button -->
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>

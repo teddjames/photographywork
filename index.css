@@ -1,0 +1,181 @@
+body {
+  font-family: "Georgia", serif;
+  background: #fdf6e3; /* Cream background */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background-image: url("https://www.transparenttextures.com/patterns/old-wall.png");
+  background-size: 400px 400px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  color: #f76c6c;
+  text-align: center;
+  text-shadow: 2px 2px #f7b32b;
+  letter-spacing: 1.5px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.2rem;
+  color: #f76c6c;
+  text-shadow: 2px 2px #f7b32b;
+  text-align: left;
+  margin: 20px 0;
+}
+
+h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  color: #f76c6c;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  font-size: 1.1rem;
+  color: #6a0572;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px #f7b32b;
+  margin: 15px 0;
+}
+
+.image-list {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+  display: flex; /* Display images in a row */
+  gap: 15px; /* Space between images */
+}
+
+.image-list li {
+  display: inline-block;
+}
+
+img {
+  width: 150px; /* Set the image size */
+  height: auto;
+  border-radius: 10px; /* Optional: Rounds corners */
+  transition: transform 0.3s ease; /* Optional: Smooth zoom effect */
+}
+
+img:hover {
+  transform: scale(1.1); /* Optional: Zoom in on hover */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+header {
+  background-color: none;
+  color: #f76c6c;
+  padding: 20px; /* Add padding for content inside the header */
+  text-align: center;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a {
+  color: inherit; /* Inherits the color of the parent element */
+  text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+  color: darkorange; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+html {
+  scroll-behavior: smooth;
+}
